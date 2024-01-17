@@ -1,0 +1,148 @@
+body {
+    background-color: rgb(255, 235, 200);;
+}
+h1 {
+    font-family: "Pacifico", cursive;
+    font-size: 50px; 
+
+}
+h1::before {
+    content: "" ;
+    position: absolute;
+    width: 100%;
+    height: 25%;
+    left: 0;
+    bottom: 10px;
+    background-color: #fec260;
+
+    z-index: -1;
+    
+}
+
+.bookmaker-body {
+    border-width: 2px 0 2px 0;
+    border-style: dotted;
+    border-color: #352e28;
+
+}
+h2 {
+    font-family: 'Righteous', sans-serif;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text ;
+   
+}
+.site-name {
+    padding-bottom: 0.75rem;
+
+}
+label {
+    font-weight: bold;
+   
+}
+label i {
+    margin-right:0.2rem;
+}
+input {
+    border: 1px solid  rgb(180, 180, 180);
+    padding: 6px;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+}
+input:focus {
+    outline: 3px solid #fec260;;
+}
+.submit
+ {
+    padding: 5px 22px;
+    background-color: #d1512d;
+    color: white;
+    margin-top: 1.5rem;
+    border-radius: 6px;
+    font-size: 17px;
+    transition: 0.5s;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.clear  {
+    padding: 5px 30px;
+    background-color: #d1512d;
+    color: white;
+    margin-top: 1.5rem;
+    border-radius: 6px;
+    font-size: 17px;
+    transition: 0.5s;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.submit:hover {
+    background-color: #bb4120;
+}
+.btn a {
+  color: white;
+  text-decoration: none;
+}
+.btn {
+    font-size: 1rem;
+    padding: 5px 15px;
+    
+}
+.circles span {
+    margin-left: 10px;
+    display: block;
+    width: 20px;
+    height: 20px;
+   
+}
+.circles span:nth-child(1) {
+    background-color: #f15f5d;
+
+}
+.circles span:nth-child(2) {
+    background-color: #febe2e;
+
+}
+.circles span:nth-child(3) {
+    background-color: #4db748;
+
+}
+
+.but {
+    display: flex;
+    gap: 40px;
+}
+.clear:hover {
+    background-color: #bb4120;
+}
+/* .btn a:focus {
+    color: black;
+} */
+.button {
+    background-color: #9eb23b;
+
+}
+.button:hover {
+    background-color: #a8bf32 ;
+}
+.modal {
+    position: fixed;
+    top : 20%;
+    left : 0 
+   
+}

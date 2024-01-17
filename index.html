@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmaker</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Recursive:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    
+    
+    
+    
+   
+  
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+  
+
+
+
+
+
+    <div class="container d-flex flex-column justify-content-center align-items-center py-5">
+        <h1 class =" py-2 position-relative">Bookrmaker</h1>
+
+        <div class="bookmaker-body w-100 py-4 p-3 mt-5  d-flex flex-column justify-content-center align-items-center">
+             <h2>
+                <i class="fa-solid fa-bookmark"></i>
+                Bookmark your favorite sites
+                <i class="fa-solid fa-bookmark"></i>
+            </h2>
+        <div class="w-100 d-flex flex-column py-4 ">
+                <label for="siteName" class="site-name">
+                    <i class="fa-solid fa-book-bookmark"></i>
+                    Site Name
+                </label>
+                <input type="text" placeholder="Bookmaker Name" id="siteName" class=" form-control ">
+        </div>
+        <div class="w-100 d-flex flex-column   ">
+            <label for="websiteUrl" class="site-name">
+                <i class="fa-solid fa-link"></i>
+                Site URL
+            </label>
+            <input type="text" placeholder="Website URL" id="websiteUrl" class=" form-control ">
+    </div>
+<div class="but">
+  
+          <button class = " border-0 submit"  >Submit</button>
+         <button onclick="clearAll()" class="clear border-0">Clear</button>
+        
+</div >
+        </div>
+        <table class="table my-4 container text-center ">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>Website Name</th>
+                    <th>Visit</th>
+                    <th>Delete</th>
+                    
+                </tr>
+            </thead>
+        
+            <tbody id="tbody">
+            </tbody>
+    
+           </table>
+          
+    </div>
+
+    
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <div class="modal-title circles d-flex g-20" id="exampleModalLabel">
+          <span class="rounded-circle"></span>
+          <span class="rounded-circle"></span>
+          <span class="rounded-circle"></span>
+        </div>
+         
+      </div>
+      <div class="modal-body">
+         <h2>Site Name or Url is not valid Please follow the rules below </h2>
+         <p>Site name must contains at least 3 charcters</p>
+         <p>Site url must be a valid one as [https://exa.com]  </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-bs-dismiss="modal">Close</button>
+       
+      </div>
+    </div>
+  </div>
+</div>
+
+
+     
+    
+<!-- <script src="sweetalert2@11.js"></script> -->
+     <script src="bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+    
+</body>
+</html>
